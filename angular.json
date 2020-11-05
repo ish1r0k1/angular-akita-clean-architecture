@@ -121,8 +121,13 @@
               "devServerTarget": "angular-akita-clean-architecture:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-akita-clean-architecture"
 }
