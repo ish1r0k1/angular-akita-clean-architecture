@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "angular-akita-clean-architecture"
+  "defaultProject": "angular-akita-clean-architecture",
+  "cli": {
+    "defaultCollection": "@datorama/akita"
+  }
 }
